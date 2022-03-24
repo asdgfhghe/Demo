@@ -1,0 +1,138 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    height :84px;
+    border-bottom: 2px solid #c81523;
+}
+header .logo {
+    padding-top: 18px;
+}
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    height: 42px;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+}
+.registerarea h3 .register {
+    float: right;
+    font-size: 14px;
+}
+.login a {
+    color: #c81523;
+}
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_form input {
+    padding-left: 10px;
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37q;
+    border: 1px solid #ccc;
+}
+
+.error {
+    /* visibility :hidden; */
+    color: #c81523;
+}
+.error_icon,
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    margin-top: -3px;
+    margin-right: 2px;
+    border-radius: 10px;
+}
+.success {
+    /* visibility :hidden; */
+    color: green;
+}
+.success_icon {
+    background-color: green;
+}
+.safe {
+    padding-left: 220px;
+}
+.safe em {
+    padding: 1px 12px;
+    margin-left: 10px;
+    color: #fff;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f; 
+}
+.qiang {
+    background-color: #f79100;
+}
+
+.btn {
+    width: 240px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 20px 0 0 92px;
+}
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+.mod_copyright .links {
+    margin-bottom: 15px;
+}
+.mod_copyright .links a {
+    margin: 0 3px;
+}
+.mod_copyright .copyright {
+    line-height: 20px;
+}
+
+@font-face {
+    font-family: "iconfont"; /* Project id  */
+    src: url('../font/iconfont.ttf?t=1646749417420') format('truetype');
+  }
+
+.reg_form li:nth-child(2){
+    position:relative;
+}
+.reg_form .iconfont {
+    position: absolute;
+    left: 300px;
+    top: 6px;
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .reg_form .iconfont:hover{
+    cursor:pointer;
+}
